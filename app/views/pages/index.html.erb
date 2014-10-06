@@ -1,26 +1,187 @@
 <div class="container-fluid">  
+  <div class="col-xs-12 col-sm-6 col-lg-5">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>   
+
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
+              <%= image_tag("child1.JPG")%>
+              <div class="carousel-caption">
+                <h3>Give hope</h3>
+                <p>Through your support, you can feed the poor</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <%= image_tag("child2.JPG")%>
+                <div class="carousel-caption">
+                  <h3>Change destiny</h3>
+                  <p>Through your giving, you can educate someone</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <%= image_tag("child3.JPG")%>
+                <div class="carousel-caption">
+                  <h3>Raise a great generation</h3>
+                  <p>It is our responsibility to allow God to use us to raise a greater generation</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel nav 
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      -->
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-lg-5">
+
+    <h2>How you can help? <small>Below!!!</small></h2>
+      <article class="media">
+        <a class="pull-left" href="#"><i class="glyphicon glyphicon-heart"></i></a>
+        <div class="media-body less-width">
+          <h3 class="h4 media-heading">Sponsor a child</h3>
+          <p>
+            Sponsor a child by giving in for their education and support them with shelter. 
+          </p>
+        </div>
+      </article>
+      <article class="media">
+        <a class="pull-left" href="#"><i class="glyphicon glyphicon-heart"></i></a>
+        <div class="media-body less-width">
+          <h3 class="h4 media-heading">Become a Volunteer</h3>
+          <p>
+            You can actively get involued by physically getting involued in this ministry activities.
+          </p>
+        </div>
+      </article>
+      <article class="media">
+        <a class="pull-left" href="#"><i class="glyphicon glyphicon-heart"></i></a>
+        <div class="media-body less-width">
+          <h3 class="h4 media-heading">Send a Donation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consecte tur adipiscisl at dui tempus,dolor sit amet consecte
+          </p>
+        </div>
+      </article>
+  </div>
+    
+  <div class="col-xs-12 col-sm-6 col-lg-2">
+    <a>
+      <button class="btn btn-mini" data-toggle="modal" data-target="#myModal">
+       Click to comment
+      </button>
+    </a>
+    <p>
+      We would like to directly get in touch with you most especially if you have something to contribute to this cause
+    </p>
+    <div class="item active">
+      <%= image_tag("child8.JPG", :class => "img-circle")%>
+      <div class="carousel-caption">
+        <h3><%= link_to "Donate", pages_donation_path %></h3>
+      </div>
+    </div>
+    <hr>
      <div class="accordion" id="accordion2">  
-            <div class="accordion-group">  
-              <div class="accordion-heading">  
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">  
-                  Click me to exapand. Click me again to collapse. Part I.  
-                </a>  
-              </div>  
-              <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">  
-                <div class="accordion-inner">  
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
-                </div>  
-              </div>  
-            </div>  
-           
+        <div class="accordion-group">  
+          <div class="accordion-heading">  
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">  
+              <button class="btn btn-sm btn-primary"> Become a volunteer </button>  
+            </a>  
           </div>  
+          <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">  
+            <div class="accordion-inner">  
+              You may want to actively be involued in the out reaches and different activities that are done in this ministry
+              Feel free to join
+              <hr/>
+              <a data-toggle="modal" href="" data-target=".join-now-form" class="btn btn-default">Join Now</a>
+              <hr/>
+            </div>  
+          </div>  
+        </div>  
     </div> 
 
-<!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myModal">
-	Click to comment
-</button>
-<!-- Modal is in the footer-->
+        
+ 
+  </div>
 </div>
+
+
+
+
+    </div>
+  </div>
+
+
+
+<section class="how-to-help">
+  <div class="container">
+     <div class="row help-list">
+          <div class="col-xs-12 col-sm-6 col-lg-5">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section second -->
+
+
+<!-- section fourth -->
+<section class="latest-news ">
+  <div class="container anim-section animate">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Checkout whats going on. <small>Latest News</small></h2>
+
+        <div class="article-list row">
+          <div class="items col-xs-12 col-sm-4">
+            <a href="#" class="img-thumb"><img src="Charity_files/img-slide-04.jpg" alt=""></a>
+            <h3 class="h4">News Heading Title</h3>
+            <span class="date">03 DEC 2013</span><span class="posted-in">Posted In : category</span>
+            <p>
+              Lorem ipsum dolor sit consectetur adipiscing elit ellentesque small project decriptions
+            </p>
+            <a href="http://theemon.com/charity/LivePreview/blog-full-width.html" class="btn btn-default">READ MORE</a>
+          </div>
+          <div class="items col-xs-12 col-sm-4">
+            <a href="#" class="img-thumb"><img src="Charity_files/img-slide-05.jpg" alt=""></a>
+            <h3 class="h4">Nunc sit amet justo quis urna hendrerit </h3>
+            <span class="date">03 DEC 2013</span><span class="posted-in">Posted In : category</span>
+            <p>
+              Lorem ipsum dolor sit consectetur adipiscing elit ellentesque small project decriptions
+            </p>
+            <a href="http://theemon.com/charity/LivePreview/blog-full-width.html" class="btn btn-default">READ MORE</a>
+          </div>
+          <div class="items col-xs-12 col-sm-4">
+            <a href="#" class="img-thumb"><img src="Charity_files/img-slide-06.jpg" alt=""></a>
+            <h3 class="h4">News Heading Title</h3>
+            <span class="date">03 DEC 2013</span><span class="posted-in">Posted In : category</span>
+            <p>
+              Lorem ipsum dolor sit consectetur adipiscing elit ellentesque small project decriptions
+            </p>
+            <a href="http://theemon.com/charity/LivePreview/blog-full-width.html" class="btn btn-default">READ MORE</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section fourth -->
 
 

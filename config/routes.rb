@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :children
+
   root :to => 'pages#index'
 
   get 'pages/about'
