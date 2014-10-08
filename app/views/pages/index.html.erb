@@ -1,4 +1,4 @@
-<div class="container-fluid">  
+<div class="container-fluid row">  
   <div class="col-xs-12 col-sm-6 col-lg-5">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel indicators -->
@@ -11,7 +11,7 @@
         <!-- Carousel items -->
         <div class="carousel-inner">
             <div class="item active">
-              <%= image_tag("child1.JPG")%>
+              <%= image_tag("child9.JPG")%>
               <div class="carousel-caption">
                 <h3>Give hope</h3>
                 <p>Through your support, you can feed the poor</p>
@@ -89,7 +89,7 @@
       We would like to directly get in touch with you most especially if you have something to contribute to this cause
     </p>
     <div class="item active">
-      <%= image_tag("child8.JPG", :class => "img-circle")%>
+      <a href="#" class="img-thumb"><%= image_tag("child7.JPG", :class => "img-circle")%></a>
       <div class="carousel-caption">
         <h3><%= link_to "Donate", pages_donation_path %></h3>
       </div>
@@ -113,32 +113,9 @@
           </div>  
         </div>  
     </div> 
-
-        
- 
   </div>
 </div>
-
-
-
-
-    </div>
-  </div>
-
-
-
-<section class="how-to-help">
-  <div class="container">
-     <div class="row help-list">
-          <div class="col-xs-12 col-sm-6 col-lg-5">
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-<!-- section second -->
+<div>
 
 
 <!-- section fourth -->
@@ -146,35 +123,39 @@
   <div class="container anim-section animate">
     <div class="row">
       <div class="col-xs-12">
-        <h2>Checkout whats going on. <small>Latest News</small></h2>
-
+        <hr>
+        <h2 align="center">Checkout whats going on with children in need. <small>Latest updates</small></h2>
+        <hr>
         <div class="article-list row">
           <div class="items col-xs-12 col-sm-4">
-            <a href="#" class="img-thumb"><img src="Charity_files/img-slide-04.jpg" alt=""></a>
-            <h3 class="h4">News Heading Title</h3>
-            <span class="date">03 DEC 2013</span><span class="posted-in">Posted In : category</span>
+            <a href="#" class="img-thumb"><%= image_tag("child8.JPG", :class => "img-rounded")%>
+            </a>
+            <h3 class="h4">Abandoned children with health problems</h3>
+            <span class="date"><%= Time.now%></span><span class="posted-in">Posted In : Health</span>
             <p>
-              Lorem ipsum dolor sit consectetur adipiscing elit ellentesque small project decriptions
+              Together we can change the health of such children through feeding them with the right meals
             </p>
-            <a href="http://theemon.com/charity/LivePreview/blog-full-width.html" class="btn btn-default">READ MORE</a>
+            <a href="" class="btn btn-default">READ MORE</a>
           </div>
           <div class="items col-xs-12 col-sm-4">
-            <a href="#" class="img-thumb"><img src="Charity_files/img-slide-05.jpg" alt=""></a>
-            <h3 class="h4">Nunc sit amet justo quis urna hendrerit </h3>
-            <span class="date">03 DEC 2013</span><span class="posted-in">Posted In : category</span>
+            <a href="#" class="img-thumb"><%= image_tag("child7.JPG", :class => "img-rounded")%>
+            </a>
+            <h3 class="h4">Post war, lost a parent</h3>
+            <span class="date"><%= Time.now%></span><span class="posted-in">Posted In : abandoned</span>
             <p>
-              Lorem ipsum dolor sit consectetur adipiscing elit ellentesque small project decriptions
+              When you took care of them, you were taking care of Me(From Our Lord Jesus)
             </p>
-            <a href="http://theemon.com/charity/LivePreview/blog-full-width.html" class="btn btn-default">READ MORE</a>
+            <a href="" class="btn btn-default">READ MORE</a>
           </div>
           <div class="items col-xs-12 col-sm-4">
-            <a href="#" class="img-thumb"><img src="Charity_files/img-slide-06.jpg" alt=""></a>
-            <h3 class="h4">News Heading Title</h3>
-            <span class="date">03 DEC 2013</span><span class="posted-in">Posted In : category</span>
+            <a href="#" class="img-thumb"><%= image_tag("child5.JPG", :class => "img-rounded")%>
+</a>
+            <h3 class="h4">Fatherless without education</h3>
+            <span class="date"><%= Time.now%></span><span class="posted-in">Posted In : Health</span>
             <p>
-              Lorem ipsum dolor sit consectetur adipiscing elit ellentesque small project decriptions
+              It is very possible to educate a child in Uganda with less than $30 
             </p>
-            <a href="http://theemon.com/charity/LivePreview/blog-full-width.html" class="btn btn-default">READ MORE</a>
+            <a href="" class="btn btn-default">READ MORE</a>
           </div>
 
         </div>
