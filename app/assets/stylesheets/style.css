@@ -224,7 +224,7 @@ ul, ol {
 
 /*  Header */
 #header {
-	background: #000e00;
+	background: #efeffe;
 }
 .primary-header {
 	padding: 18px 0 18px;
@@ -283,7 +283,7 @@ ul, ol {
 	border-right: none;
 	border-bottom: none;
 	box-shadow: none;
-	background: #defeee;
+	background: #1B7B98;
 	margin-bottom: 0;
 }
 .navbar-nav {
@@ -294,11 +294,12 @@ ul, ol {
 	text-transform: uppercase;
 	padding: 14px 10px 15px;
 	font-weight: 700;
+	color: #efeffe;
 }
 .navbar-nav > li > .dropdown-menu {
 	text-transform: uppercase;
-	background: #000e00;
-	border: 1px solid #000e00;
+	background: #1B7B98;
+	border: 1px solid #1B7B98;
 	border-radius: 0;
 	z-index: 1000;
 	top: 100%;
@@ -372,7 +373,8 @@ a.brand img {
 /*search-form*/
 .search-form {
 	margin: 0;
-	border-bottom: 0;
+	border-bottom: 1px;
+	box-shadow: 2px 2px 20px #EEEAAA;
 	border-left: 1px solid #d6b428;
 	border-right: 1px solid #d6b428;
 	padding: 0;
@@ -380,10 +382,11 @@ a.brand img {
 }
 .search-form .form-control {
 	background: none;
-	border: none;
+	border-bottom: 2px;
+	border-top: 2px;
 	padding-right: 2px;
 	height: 50px;
-	color: #45403c;
+	color: #000;
 	font-weight: 700;
 	width: 100%;
 }
@@ -394,11 +397,11 @@ a.brand img {
 }
 .search-form button[type="submit"] {
 	background: none;
-	border: none;
+	border: #000;
 	position: absolute;
 	right: 12px;
 	top: 8px;
-	font-size: 23px;
+	font-size: 24px;
 	color: #45403c;
 	font-weight: normal;
 }

@@ -171,12 +171,12 @@
 	background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
-	background-color: #357ebd;
+	background-color: #000;
 }
 .navbar-default {
-	background-image: -webkit-linear-gradient(top, #f0d460 0%, #ecc731 100%);
-	background-image: -o-linear-gradient(top, #f0d460 0%, #ecc731 100%);
-	background-image: linear-gradient(to bottom, #f0d460 0%, #ecc731 100%);
+	background-image: -webkit-linear-gradient(top, #33O 0%, #ecc731 100%);
+	background-image: -o-linear-gradient(top, #330 0%, #ecc731 100%);
+	background-image: linear-gradient(to bottom, #330 0%, #ecc731 100%);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0d460', endColorstr='#ffecc731', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -192,7 +192,11 @@
 	font-family: 'latoblack', sans-serif;
 }
 .navbar-brand, .navbar-nav > li > a {
-	text-shadow: none;
+	text-shadow: 0px 0px 0px #EEEAAA;;
+	background-color: #1B7B90;
+	box-shadow: 0px -1px 20px #EEEAAA;
+	border-color:#330 #000 #330 #000; /* A bit more verbose to work with .rounded too */
+	border-bottom: solid 5px;
 }
 .navbar-inverse {
 	background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);

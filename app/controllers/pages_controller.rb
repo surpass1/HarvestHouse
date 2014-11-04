@@ -9,6 +9,7 @@ class PagesController < ApplicationController
   end
 
   def donation
+    @children = Child.all
   end
 
   def sponsorship
